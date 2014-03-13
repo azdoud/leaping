@@ -1,0 +1,151 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body, 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+	font-family: 'Open Sans', 'Trebuchet MS', Verdana, Arial, Helvetica, sans-serif;
+	color: #666;
+}
+h1 {
+	font-weight: 600;
+}
+.container-fluid {
+    padding: 0 15px;
+} 
+.map {
+	min-height: 600px;
+  height: auto !important;
+  height: 600px; 
+background-color: #ddd;
+}
+#sidebar-wrapper {
+  display: block;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+	width: 25%;
+  right: 0;
+  top: 55px;
+  /*right: 250px;*/
+  background: #fdfdfd;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 10000;
+  transition: all 0.4s ease 0s;
+  -webkit-box-shadow: -1px 0px 3px 0px #bbb;
+	-moz-box-shadow:    -1px 0px 3px 0px #bbb;
+	box-shadow:         -1px 0px 3px 0px #bbb;
+}
+.navbar-header a {
+	color: #fff;
+}
+.navbar-inverse .navbar-brand {
+	color: #fff;
+}
+a.navbar-brand, .navbar-brand {
+	font-size: 30px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.navbar-inverse {
+	background-color: rgb(231,62,1);
+  /*background-color: coral;*/
+	border: none;
+	color: #fff;
+}
+.navbar-header, .navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    text-decoration: underline;
+}
+.btn-form {
+	color: #ffffff;
+  background-color: #a3e6e8;
+  border-radius: 2px;
+}
+.nav-center {
+    display: inline-block;
+    left: 0;
+    right: 0;
+    text-align:center;
+    width:40%;
+}
+.form-control {
+	border-radius: 1px;
+	border: none;
+	width: 400px;
+}
+.btn-form:hover,
+.btn-form:focus,
+.btn-form:active,
+.btn-form.active,
+.open .dropdown-toggle.btn-form {
+  color: #ffffff;
+  background-color: #47a447;
+  border-color: #398439;
+}
+
+.btn-form:active,
+.btn-form.active,
+.open .dropdown-toggle.btn-form {
+  background-image: none;
+}
+
+.btn-form.disabled,
+.btn-form[disabled],
+fieldset[disabled] .btn-form,
+.btn-form.disabled:hover,
+.btn-form[disabled]:hover,
+fieldset[disabled] .btn-form:hover,
+.btn-form.disabled:focus,
+.btn-form[disabled]:focus,
+fieldset[disabled] .btn-form:focus,
+.btn-form.disabled:active,
+.btn-form[disabled]:active,
+fieldset[disabled] .btn-form:active,
+.btn-form.disabled.active,
+.btn-form[disabled].active,
+fieldset[disabled] .btn-form.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+footer { 
+	height: 400px;
+	background: #555;
+	color: #fff;
+}
+.inline-title {
+  display: inline;
+  margin-bottom: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
